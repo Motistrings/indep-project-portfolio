@@ -23,3 +23,15 @@
 .hobbies {
     color: white;
 }
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    body{
+        background-color:  white;
+        color:  black;
+    }
+}
+@media screen and (min-width: 768px) {
+    body{
+        background-color:  grey;
+        color:  white;
+    }
+}
